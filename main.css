@@ -1,0 +1,93 @@
+body {
+  background-image: url(./gassyuku2018.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+　position:fixed;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+a {
+  color: #000;
+  text-decoration:none;
+}
+
+h1.title {
+  float: left;
+  margin-left: 10px;
+}
+
+#nav {
+  list-style: none;
+  overflow: hidden;
+  float: right;
+}
+
+#nav li {
+  width: 140px;
+  text-align: center;
+  background-color: #333;
+  float: left;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 2px;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.bgc {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.name {
+  position: relative;
+  float: right;
+  top: 30%;
+  margin-right: 5%
+}
+
+.box {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: solid 2px #000000;
+  border-radius: 3px;
+}
+
+.box a {
+  padding: 20px;
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  transition: .4s;
+}
+
+.box:hover {
+  background: #ffffff;
+}
+
+.schedule {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.inquiry {
+  padding: 20px;
+  font-size: 25px;
+}
