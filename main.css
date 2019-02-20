@@ -36,10 +36,13 @@ h1.title {
 }
 
 #nav li a {
-  text-decoration: none;
+  display: block;
   color: #fff;
   font-weight: bold;
-  padding: 20px;
+}
+
+li a:hover {
+  background-color: rgba(255, 0, 0, 0.5);
 }
 
 .clearfix:after{
