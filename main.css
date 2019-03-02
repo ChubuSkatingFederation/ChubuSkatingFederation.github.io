@@ -1,7 +1,13 @@
 body {
-  background-image: url(./gassyuku2018.jpg);
+  /*background-image: url(./gassyuku2018.jpg);*/
   background-repeat: no-repeat;
   background-position: center;
+
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background: url(./gassyuku2016.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
 header {
@@ -93,4 +99,13 @@ li a:hover {
 .inquiry {
   padding: 20px;
   font-size: 25px;
+}
+
+.competition-title {
+  text-align: center;
+  height: 20vh;
+}
+
+.competition-margin {
+  height: 10vh;
 }
