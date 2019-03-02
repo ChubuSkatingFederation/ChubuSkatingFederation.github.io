@@ -80,11 +80,14 @@ li a:hover {
 }
 
 .box a {
-  padding: 20px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: block;
   text-decoration: none;
   color: #000000;
   transition: .4s;
+  font-size: 30px;
 }
 
 .box:hover {
