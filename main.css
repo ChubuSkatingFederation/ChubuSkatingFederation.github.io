@@ -58,15 +58,48 @@ li a:hover {
 }
 
 .bgc {
+  position: relative;
   height: 100vh;
   background: rgba(255, 255, 255, 0.5);
 }
 
 .name {
-  position: relative;
-  float: right;
+  position: absolute;
   top: 30%;
+  left: 50%;
+  /*
+  float: right;
   margin-right: 5%
+  */
+}
+
+.menu {
+  position: absolute;
+  top: 60%;
+  width: 96%;
+  margin-left: 4%;
+}
+
+.menu-box {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: solid 2px #000000;
+  border-radius: 3px;
+  width: 20%;
+  margin-right: 4%;
+  text-align: center;
+}
+
+.menu-box a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  transition: .4s;
+  font-size: 30px;
+}
+
+.menu-box:hover {
+  background: #ffffff;
 }
 
 .box {
