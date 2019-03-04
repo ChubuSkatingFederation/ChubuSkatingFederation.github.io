@@ -153,3 +153,30 @@ li a:hover {
 .competition-margin {
   height: 10vh;
 }
+
+table {
+  margin: 5%;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+th,td {
+    padding: 5px 10px;          /* 余白指定 */
+}
+
+th {
+    background-color: rgba(0,0,0,0.5);  /* 背景色指定 */
+    color: #fff;               /* 文字色指定 */
+    font-weight:  normal;       /* 文字の太さ指定 */
+    position:  relative;        /* 位置指定 */
+    z-index: 10;                /* 重なり調整 */
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.7); /* 背景色指定 */
+    padding-left: 25px;         /* 余白指定 */
+}
+
+.tr-1 {
+    border-bottom: solid rgba(0, 0, 0, 0.3); /* 線指定 */
+}
