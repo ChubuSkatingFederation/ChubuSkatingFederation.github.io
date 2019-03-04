@@ -132,7 +132,15 @@ li a:hover {
   font-size: 30px;
 }
 
+.inquiry-title {
+  position: absolute;
+  margin-top: 5%;
+  padding: 20px;
+}
+
 .inquiry {
+  position: absolute;
+  margin-top: 15%;
   padding: 20px;
   font-size: 25px;
 }
