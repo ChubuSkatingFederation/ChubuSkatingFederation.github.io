@@ -1,7 +1,9 @@
 body {
   /*background-image: url(./gassyuku2018.jpg);*/
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 
   -moz-box-sizing: border-box;
   box-sizing: border-box;

@@ -1,0 +1,63 @@
+.accbox {
+  margin: 2em 0;
+  padding: 0;
+}
+.accbox label {
+  display: block;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.6);
+  border: solid 2px #000000;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.accbox label:hover {
+  background: #ffffff;
+}
+.accbox input {
+  display: none;
+}
+.accbox .accshow {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+.cssacc:checked + .accshow {
+  height: auto;
+  padding: 5px;
+  background: #eaeaea;
+  opacity: 1;
+}
+.content {
+  margin-left: 5%;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: solid 2px #000000;
+  border-radius: 3px;
+  width: 40%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.content a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  transition: .4s;
+  font-size: 30px;
+}
+
+.content:hover {
+  background: #ffffff;
+}
