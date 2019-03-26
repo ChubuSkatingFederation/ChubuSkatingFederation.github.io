@@ -182,3 +182,8 @@ td {
 .tr-1 {
     border-bottom: solid rgba(0, 0, 0, 0.3); /* 線指定 */
 }
+
+td h3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
